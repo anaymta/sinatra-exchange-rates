@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>Currency pairs</h1>
+  <ul>
+    <% @symbols.each do |symbol| %>
+      <li>
+      Convert 1
+      <a href="/<%= symbol %>"><%= symbol %> to...</a>
+      </li>
+    <% end %>
+  </ul>
+</body>
+</html>
