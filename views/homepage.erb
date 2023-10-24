@@ -5,8 +5,10 @@
   <ul>
     <% @symbols.each do |symbol| %>
       <li>
-      Convert 1
-      <a href="/<%= symbol %>"><%= symbol %> to...</a>
+      <a 
+      href="/<%= symbol %>">
+      Convert 1 <%= symbol %> to...
+      </a>
       </li>
     <% end %>
   </ul>
